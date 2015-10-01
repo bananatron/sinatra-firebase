@@ -1,18 +1,17 @@
 #Sinatra Firebase Microboiler
-*Sinatra Firebase Microboiler* is a super simple boilerplate [Sinatra](http://www.sinatrarb.com/) 
-wired up with [Firebase](http://www.firebase.com/) and some other goodies. It
-provides some basic routing and Firebase helpers and examples.
+*Sinatra Firebase Microboiler* is some super simple [Sinatra](http://www.sinatrarb.com/) 
+boilerplate wired up with [Firebase](http://www.firebase.com/) and some other goodies. 
+It provides some basic routing and Firebase helpers and examples.
 
 Great for hackathons or just getting an app/api up and running quickly.
 
 
 
 #Quickstart
-- Install [ruby](https://www.ruby-lang.org/en/) & (bundler)[http://bundler.io/] <i>(Check gemfile)</i>
+- Install [Ruby](https://www.ruby-lang.org/en/) & [Bundler](http://bundler.io/) <i>(Check gemfile)</i>
 - <code>bundle install</code>
-- Edit your <code>app.rb</code> file to reference your Firebase instance.
-- Start your server with <code>ruby app.rb</code>
 - Set your Firebase URL in <code>app.rb</code> and <code>public/scripts/js/scripts.js</code>
+- Start your server with <code>ruby app.rb</code>
 - Deployable to Heroku
 
 If you're using a virtual dev thing like nitrous or Cloud9, you might need to 
