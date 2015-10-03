@@ -22,5 +22,6 @@ end
 #Example PUSH from firebase (will add, not override)
 #Push adds to a firebase collection (object) and returns the generated ID
 def pushFirebaseExample 
-  $fb_root.push('/hired/employees', employee) #Will return id Firebase generates
+  hash = {lol: 1, blah: 2}
+  $fb_root.push('/things', hash) #Will return id Firebase generates
 end
