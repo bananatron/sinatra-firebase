@@ -16,15 +16,16 @@ Great for hackathons or just getting an app/api up and running quickly.
 
 
 *NOTE*: If you're using a virtual dev thing like Nitrous or Cloud9, you might need to 
-launch with env variables.
+launch with env variables and/or specify port things.
 
+*Nitrous*: <code>ruby app.rb -p 3000 -o 0.0.0.0</code>
 *Cloud9*: <code>ruby app.rb -p $PORT -o $IP</code>
 
 
 
 #Includes
 - [Sinatra](http://www.sinatrarb.com/)
-- [Firebase](https://github.com/oscardelben/firebase-ruby) 2.2.7
+- [Firebase](https://github.com/oscardelben/firebase-ruby) 2.3.2
 - [Sanitize](https://github.com/rgrove/sanitize)
 - [Normalize](https://necolas.github.io/normalize.css/)
 - [Modernizer](https://modernizr.com/)
