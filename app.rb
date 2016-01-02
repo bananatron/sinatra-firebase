@@ -5,7 +5,7 @@ require 'sanitize'
 
 require_relative 'helpers' #If you want to keep things elsewhere
 
-#$base_uri = 'https://faces.firebaseio.com' #Fill this out!
+#$base_uri = 'https://my-thing.firebaseio.com' #Fill this out!
 puts "---\nDeclare your $base_uri!\n---" if !$base_uri #Above this
  
 $fb_root = Firebase::Client.new($base_uri) #Firebase instance 
