@@ -10,7 +10,7 @@ def getFirebaseExample
 end
 
 #Example SET from firebase
-def getFirebaseExample
+def setFirebaseExample
   hh = {lol: 1, blah: 2}
   $fb_root.set("/key", hh) #Sets data (will override)
 end
