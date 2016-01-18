@@ -4,10 +4,6 @@
 
 #Some example of firebase methods - more info @ http://github.com/oscardelben/firebase-ruby
 
-def getServerTime
-  Firebase::ServerValue::TIMESTAMP
-end
-
 #Example GET from firebase
 def getFirebaseExample
   $fb_root.get("/").body
