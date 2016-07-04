@@ -1,7 +1,17 @@
 console.log('Firebase URL not set in scripts.js yet!');
 
-var fbUrl = 'http://{YOUR FIREBASE STUFF}.firebaseio.com';
-if (fbRoot === undefined) var fbRoot = new Firebase(fbUrl);
+// TODO: In your firebase project's 'Overview' page, select the 'Add Firebase to your web app'
+// button to get your project's information for the config below.
+
+// Initialize Firebase
+var config = {
+  apiKey: "{YOUR API KEY}",
+  authDomain: "{YOUR PROJECT ID}.firebaseapp.com",
+  databaseURL: http://{YOUR FIREBASE URL}.firebaseio.com,
+  storageBucket: "bucket.appspot.com",
+};
+firebase.initializeApp(config);
+
 
 
 //Google Analytics: change UA-XXXXX-X to be your site's ID.
@@ -13,7 +23,7 @@ r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
 ga('create','UA-XXXXX-X','auto');ga('send','pageview');
 
 
-
+// Post example
 $.post( "/example", function( data ) {
   $( "#post-result" ).html( data );
 });
