@@ -1,9 +1,11 @@
 #Sinatra Firebase Microboiler
+<img src="https://www.herokucdn.com/deploy/button.svg">
+
 Sinatra Firebase Microboiler is some super simple [Sinatra](http://www.sinatrarb.com/) 
 boilerplate wired up with [Firebase](http://www.firebase.com/) and some other goodies. 
 It provides some basic routing and Firebase helpers and examples.
 
-Great for hackathons or just getting an app/api up and running quickly.
+Great for prototyping, hackathons, or just getting an app/API up and running quickly.
 
 
 
@@ -15,8 +17,6 @@ Great for hackathons or just getting an app/api up and running quickly.
 - Deployable to Heroku
 
 
-*NOTE*: If you're using a virtual dev thing like Nitrous or Cloud9, you might need to 
-launch with env variables and/or specify port things.
 
 *Nitrous*: <code>ruby app.rb -p 3000 -o 0.0.0.0</code>
 
@@ -26,10 +26,10 @@ launch with env variables and/or specify port things.
 
 #Includes
 - [Sinatra](http://www.sinatrarb.com/)
-- [Firebase](https://github.com/oscardelben/firebase-ruby) 2.3.2
+- [Firebase](https://github.com/oscardelben/firebase-ruby)
 - [Sanitize](https://github.com/rgrove/sanitize)
 - [Normalize](https://necolas.github.io/normalize.css/)
 - [Modernizer](https://modernizr.com/)
-- [Jquery](https://jquery.com/) 2.1.4
-- [Font Awesome](https://fortawesome.github.io/Font-Awesome/) 4.3.0
+- [Jquery](https://jquery.com/)
+- [Font Awesome](https://fortawesome.github.io/Font-Awesome/)
 - [Open Sans](https://www.google.com/fonts/specimen/Open+Sans)
