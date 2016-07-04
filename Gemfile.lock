@@ -2,7 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     crass (1.0.2)
-    firebase (0.2.4)
+    firebase (0.2.6)
       httpclient
       json
     httpclient (2.6.0.1)
