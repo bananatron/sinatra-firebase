@@ -1,4 +1,4 @@
-#Sinatra Firebase Microboiler
+# Sinatra Firebase Microboiler
 <img src="https://www.herokucdn.com/deploy/button.svg">
 
 Sinatra Firebase Microboiler is some super simple [Sinatra](http://www.sinatrarb.com/) 
@@ -9,7 +9,7 @@ Great for prototyping, hackathons, or just getting an app/API up and running qui
 
 
 
-#Quickstart
+# Quickstart
 - Install [Ruby](https://www.ruby-lang.org/en/) & [Bundler](http://bundler.io/) <i>(Check gemfile)</i>
 - <code>bundle install</code>
 - Set your Firebase URL in <code>app.rb</code> and <code>public/js/scripts.js</code>
@@ -17,14 +17,11 @@ Great for prototyping, hackathons, or just getting an app/API up and running qui
 - Deployable to Heroku
 
 
-
-*Nitrous*: <code>ruby app.rb -p 3000 -o 0.0.0.0</code>
-
 *Cloud9*: <code>ruby app.rb -p $PORT -o $IP</code>
 
 
 
-#Includes
+# Includes
 - [Sinatra](http://www.sinatrarb.com/)
 - [Firebase](https://github.com/oscardelben/firebase-ruby)
 - [Sanitize](https://github.com/rgrove/sanitize)
